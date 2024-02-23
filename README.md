@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+project link - https://artifactemojigame.netlify.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
