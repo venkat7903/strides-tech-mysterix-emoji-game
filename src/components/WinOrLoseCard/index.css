@@ -1,0 +1,79 @@
+/* Write your code here. */
+.win-or-lose-container {
+  width: 80%;
+  max-width: 600px;
+  background: #ffffff33;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.win-or-lose-img {
+  width: 50%;
+}
+
+.win-lose-score-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score-title {
+  color: #fff;
+  text-align: center;
+}
+
+.score-type {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.score-count {
+  text-align: center;
+  color: #6a59ff;
+  font-size: 32px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.play-btn {
+  background: #ffce27;
+  border: none;
+  outline: none;
+  width: 100px;
+  color: #000;
+  cursor: pointer;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .win-or-lose-container {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .win-or-lose-img {
+    order: 1;
+    width: 40%;
+    max-width: 200px;
+  }
+
+  .score-container {
+    margin-right: 30px;
+  }
+}
+
+.telegram-link {
+  color: blue;
+}
