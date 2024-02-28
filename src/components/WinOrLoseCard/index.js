@@ -20,8 +20,8 @@ const WinOrLoseCard = (props) => {
         <p className="score-type">{scoreType}</p>
         <p className="score-count">{score}/12</p>
         {isWon ? (
-          <a className="telegram-link" href="https://t.me/e_artifact2k24">
-            https://t.me/e_artifact2k24
+          <a className="telegram-link" href="https://t.me/tech_mystre">
+            https://t.me/tech_mystre
           </a>
         ) : (
           <button type="button" className="play-btn" onClick={onClickPlayAgain}>
